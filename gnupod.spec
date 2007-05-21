@@ -14,6 +14,7 @@ Group:		Communications
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:  perl-MP3-Info perl-Unicode-String
 BuildRequires:  perl-XML-Parser
+BuildRequires:  perl-libwww-perl
 Requires:  	perl-MP3-Info perl-Unicode-String
 Requires:  	perl-XML-Parser
 BuildArch:	noarch
