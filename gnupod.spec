@@ -1,5 +1,5 @@
 %define name	gnupod
-%define version	0.99.2
+%define version	0.99.3
 %define release %mkrel 1
 
 Name: 	 	%{name}
@@ -7,9 +7,9 @@ Summary: 	Command-line tools for the iPod
 Version: 	%{version}
 Release: 	%{release}
 
-Source:		http://savannah.gnu.org/download/gnupod/%{name}-%{version}.tar.bz2
+Source:		http://savannah.gnu.org/download/gnupod/%{name}-%{version}.tar.gz
 URL:		http://www.gnu.org/software/gnupod/
-License:	GPL
+License:	GPLv3
 Group:		Communications
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:  perl-MP3-Info perl-Unicode-String
