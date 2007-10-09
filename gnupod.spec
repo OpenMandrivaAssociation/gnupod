@@ -1,5 +1,5 @@
 %define name	gnupod
-%define version	0.99.3
+%define version	0.99.5
 %define release %mkrel 1
 
 Name: 	 	%{name}
@@ -7,7 +7,7 @@ Summary: 	Command-line tools for the iPod
 Version: 	%{version}
 Release: 	%{release}
 
-Source:		http://savannah.gnu.org/download/gnupod/%{name}-%{version}.tar.gz
+Source:		http://savannah.gnu.org/download/gnupod/%{name}-%{version}.tgz
 URL:		http://www.gnu.org/software/gnupod/
 License:	GPLv3
 Group:		Communications
@@ -23,7 +23,7 @@ Provides:	gnupod-tools
 
 %description
 gnuPod is a collection of tools which allow you to use your iPod under Linux.
-HFS+ and FAT32 formatted iPods are supported. 
+HFS+ and FAT32 formatted iPods are supported.
 
 %prep
 %setup -q
@@ -44,11 +44,11 @@ cp doc/%name.info $RPM_BUILD_ROOT/%{_infodir}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post 
-%_install_info %{name}.info 
+%post
+%_install_info %{name}.info
 
-%preun 
-%_remove_install_info %{name}.info 
+%preun
+%_remove_install_info %{name}.info
 
 %files
 %defattr(-,root,root)
