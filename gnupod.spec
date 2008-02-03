@@ -1,5 +1,5 @@
 %define name	gnupod
-%define version	0.99.5
+%define version	0.99.6
 %define release %mkrel 1
 
 Name: 	 	%{name}
