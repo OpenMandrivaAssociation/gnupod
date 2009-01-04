@@ -1,6 +1,6 @@
 %define name	gnupod
-%define version	0.99.6
-%define release %mkrel 3
+%define version	0.99.7
+%define release %mkrel 1
 
 Name: 	 	%{name}
 Summary: 	Command-line tools for the iPod
