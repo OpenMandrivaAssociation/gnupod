@@ -2,7 +2,7 @@
 %define version	0.99.8
 %define release %mkrel 1
 
-Name: 	 	%{name}
+Name:		%{name}
 Summary: 	Command-line tools for the iPod
 Version: 	%{version}
 Release: 	%{release}
