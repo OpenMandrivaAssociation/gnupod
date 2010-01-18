@@ -20,7 +20,7 @@ BuildRequires:	perl-TimeDate
 Requires:	perl-MP3-Info perl-Unicode-String
 Requires:	perl-XML-Parser
 BuildArch:	noarch
-
+Provides:	gnupod-tools
 %description
 gnuPod is a collection of tools which allow you to use your iPod under Linux.
 HFS+ and FAT32 formatted iPods are supported.
