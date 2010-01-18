@@ -3,25 +3,23 @@
 %define release %mkrel 1
 
 Name:		%{name}
-Summary: 	Command-line tools for the iPod
-Version: 	%{version}
-Release: 	%{release}
+Summary:	Command-line tools for the iPod
+Version:	%{version}
+Release:	%{release}
 
 Source:		http://savannah.gnu.org/download/gnupod/%{name}-%{version}.tgz
 URL:		http://www.gnu.org/software/gnupod/
 License:	GPLv3+
 Group:		Communications
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:  perl-MP3-Info perl-Unicode-String
-BuildRequires:  perl-XML-Parser
-BuildRequires:  perl-libwww-perl
-BuildRequires:  perl-Digest-SHA1
+BuildRequires:	perl-MP3-Info perl-Unicode-String
+BuildRequires:	perl-XML-Parser
+BuildRequires:	perl-libwww-perl
+BuildRequires:	perl-Digest-SHA1
 BuildRequires:	perl-TimeDate
-Requires:  	perl-MP3-Info perl-Unicode-String
-Requires:  	perl-XML-Parser
+Requires:	perl-MP3-Info perl-Unicode-String
+Requires:	perl-XML-Parser
 BuildArch:	noarch
-Obsoletes:	gnupod-tools
-Provides:	gnupod-tools
 
 %description
 gnuPod is a collection of tools which allow you to use your iPod under Linux.
