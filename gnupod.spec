@@ -1,11 +1,7 @@
-%define name	gnupod
-%define version	0.99.8
-%define release %mkrel 2
-
-Name:		%{name}
+Name:		gnupod		
 Summary:	Command-line tools for the iPod
-Version:	%{version}
-Release:	%{release}
+Version:	0.99.8
+Release:	%mkrel 2
 Source:		ftp://ftp.gnu.org/gnu/gnupod/%{name}-%{version}.tgz
 URL:		http://www.gnu.org/software/gnupod/
 License:	GPLv3+
