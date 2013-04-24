@@ -40,8 +40,6 @@ cp doc/%name.info $RPM_BUILD_ROOT/%{_infodir}
 rm -rf $RPM_BUILD_ROOT
 
 
-%preun
-%_remove_install_info %{name}.info
 
 %files
 %defattr(-,root,root)
