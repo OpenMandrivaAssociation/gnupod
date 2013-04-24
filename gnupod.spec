@@ -39,8 +39,6 @@ cp doc/%name.info $RPM_BUILD_ROOT/%{_infodir}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post
-%_install_info %{name}.info
 
 %preun
 %_remove_install_info %{name}.info
