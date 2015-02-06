@@ -1,7 +1,7 @@
 Name:		gnupod		
 Summary:	Command-line tools for the iPod
 Version:	0.99.8
-Release:	3
+Release:	4
 Source:		ftp://ftp.gnu.org/gnu/gnupod/%{name}-%{version}.tgz
 URL:		http://www.gnu.org/software/gnupod/
 License:	GPLv3+
