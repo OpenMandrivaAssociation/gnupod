@@ -7,6 +7,11 @@ URL:		https://www.gnu.org/software/gnupod/
 License:	GPLv3+
 Group:		Communications
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	perl-MP3-Info perl-Unicode-String
 BuildRequires:	perl-XML-Parser
 BuildRequires:	perl-libwww-perl
